@@ -1,0 +1,18 @@
+{{- define "title" }}发生404错误，页面未找到！ - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" -}}
+<div class="not-found">
+  <h1 class="error-emoji"></h1>
+  <p class="error-text">/* 发生404错误，页面未找到！ */</p>
+  <p class="error-link"><a href="{{ "/" | relLangURL }}">↑ 回到主页 ↑</a></p>
+</div>
+<script>
+  var errorEmojiContainer = document.getElementsByClassName('error-emoji')[0];
+  var emojiArray = [
+    '\\(o_o)/', '(o^^)o', '(˚Δ˚)b', '(^-^*)', '(≥o≤)', '(^_^)b', '(·_·)',
+    '(=\'X\'=)', '(>_<)', '(;-;)', '\\(^Д^)/',
+  ];
+  var errorEmoji = emojiArray[Math.floor(Math.random() * emojiArray.length)];
+  errorEmojiContainer.appendChild(document.createTextNode(errorEmoji));
+</script>
+{{- end -}}
