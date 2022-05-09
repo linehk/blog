@@ -1,10 +1,10 @@
 ---
-title: "【读书笔记】计算机科学导论"
+title: "【习题解答】计算机科学导论"
 date: 2022-05-02T15:23:08+08:00
 lastmod: 2022-05-02T15:23:08+08:00
 keywords: []
 description: ""
-categories: [Note]
+categories: [Solution]
 
 ---
 
