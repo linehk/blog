@@ -1,7 +1,7 @@
 ---
 title: "Golang 泛型中级教程"
-date: 2024-01-11T22:34:33+08:00
-lastmod: 2024-01-11T22:34:33+08:00
+date: 2024-01-12T20:38:33+08:00
+lastmod: 2024-01-12T20:38:33+08:00
 keywords: []
 description: ""
 categories: [Golang]
