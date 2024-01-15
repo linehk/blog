@@ -57,6 +57,6 @@ func main() {
 
 ## 参考链接
 
-[Go 1.18 Release Notes](https://tip.golang.org/doc/go1.18 "Go 1.18 Release Notes")
+[Go 1.18 Release Notes](https://tip.golang.org/doc/go1.18#language "Go 1.18 Release Notes")
 
 [cmd/compile: consistently report "declared but not used" errors - needs release notes #49214](https://github.com/golang/go/issues/49214 "cmd/compile: consistently report \"declared but not used errors\" - needs release notes #49214")
