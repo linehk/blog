@@ -280,7 +280,7 @@ func Scale[S ~[]E, E constraints.Integer](s S, c E) S {
 * 不要因为追求速度而从接口类型更改为类型参数，因为它可能不会运行得更快；
 * 如果你发现自己写的几份代码之间的唯一区别是类型，就应该使用泛型；反过来说，应该一直避免使用泛型，直到你意识到你在写重复的代码。
 
-## 使用 any 而不是 interface{}
+## 新的预声明标记符 any 和 comparable
 
 从语义的角度，any 更为清晰，可以用它来替换 interface{}。使用以下命令可以帮你定位到使用 interface{} 的代码：
 
@@ -293,6 +293,8 @@ find . -name "*.go" | xargs grep "interface{}"
 ```shell
 gofmt -w -r 'interface{} -> any' .
 ```
+
+comparable 是一个 interface，可以用作类型约束，表示所有可以进行比较的类型。
 
 ## 跟泛型有关的官方包
 
