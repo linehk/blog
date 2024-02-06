@@ -8,7 +8,7 @@ categories: [Misc]
 
 ---
 
-本文为 2012 年在 [FreeBuf](https://www.freebuf.com/ "FreeBuf") 发表的文章，原地址为：[ZAP 介绍](https://www.freebuf.com/sectool/5427.html "ZAP 介绍")。以下内容除了将图片转换为 WebP 外均无修改，借此来缅怀过去的岁月。
+本文为 2012 年在 [FreeBuf](https://www.freebuf.com/ "FreeBuf") 发表的文章，原地址为：[ZAP 介绍](https://www.freebuf.com/sectool/5427.html "ZAP 介绍")。以下内容除了将图片转换为 WebP 外均无修改。
 
 感谢[Line](http://linehk.blog.com/ "Line")投递，转载请注明出处！
 

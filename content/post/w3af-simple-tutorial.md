@@ -8,7 +8,7 @@ categories: [Misc]
 
 ---
 
-本文为 2012 年在 [FreeBuf](https://www.freebuf.com/ "FreeBuf") 发表的文章，原地址为：[w3af 简单使用教程](https://www.freebuf.com/articles/5472.html "w3af 简单使用教程")。以下内容均无修改，借此来缅怀过去的岁月。
+本文为 2012 年在 [FreeBuf](https://www.freebuf.com/ "FreeBuf") 发表的文章，原地址为：[w3af 简单使用教程](https://www.freebuf.com/articles/5472.html "w3af 简单使用教程")。以下内容均无修改。
 
 w3af是一个Web应用程序攻击和检查框架.该项目已超过130个插件,其中包括检查网站爬虫,SQL注入(SQL Injection),跨站(XSS),本地文件包含(LFI),远程文件包含(RFI)等.该项目的目标是要建立一个框架,以寻找和开发Web应用安全漏洞,所以很容易使用和扩展.
 
