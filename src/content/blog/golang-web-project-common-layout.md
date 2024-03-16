@@ -14,7 +14,7 @@ categories: [Golang]
 
 来源：[Golang 官方文档](https://go.dev/doc/modules/layout "Golang 官方文档")
 
-```txt
+plaintext
 project-root-directory/
   go.mod
   internal/
@@ -64,7 +64,7 @@ project-root-directory/
 
 来源：[go-zero 框架布局](https://go-zero.dev/docs/concepts/layout "go-zero 框架布局")
 
-```txt
+plaintext
 example
 ├── etc
 │   └── example.yaml
@@ -91,7 +91,7 @@ example
 
 internel/ 目录：
 
-```txt
+plaintext
 .
 ├── common
 │   ├── auth
@@ -248,7 +248,7 @@ internal/ 目录下分成不同的微服务，common/ 目录放置共用的代�
 
 来源：[go-backend-clean-architecture](https://github.com/amitshekhariitbhu/go-backend-clean-architecture "go-backend-clean-architecture")
 
-```txt
+plaintext
 .
 ├── Dockerfile
 ├── LICENSE
@@ -335,7 +335,7 @@ internal/ 目录下分成不同的微服务，common/ 目录放置共用的代�
 
 来源：[create-go-app/cli](https://github.com/create-go-app/cli "create-go-app/cli")
 
-```txt
+plaintext
 .
 ├── Dockerfile
 ├── LICENSE

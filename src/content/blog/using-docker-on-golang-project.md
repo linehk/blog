@@ -112,7 +112,7 @@ Hello, sulinehk!
 
 让我们来为这个项目编写 **Dockerfile**，在根目录创建文件名为 Dockerfile 的文件，内容如下：
 
-```Dockerfile
+dockerfile
 # 拉取 Go 语言最新的基础镜像
 FROM golang:latest
 

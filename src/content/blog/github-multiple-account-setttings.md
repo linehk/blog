@@ -37,7 +37,7 @@ ssh-keygen -t rsa -f ~/.ssh/id_rsa -C "mainemail@gmail.com"
 
 编辑 `~/.ssh/config` SSH 配置文件，没有该文件则新建。
 
-```txt
+plaintext
 # mainemail@gmail.com
 Host github-main.com
 HostName github.com

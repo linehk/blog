@@ -149,7 +149,7 @@ Go 语言的另一个相当重要的特点是：它是一门垃圾收集式语�
 
 比如说我常用的 [iron/base](https://hub.docker.com/r/iron/base/ "iron/base")，只有 6 MB 左右。
 
-```Dockerfile
+dockerfile
 FROM iron/base
 
 EXPOSE 6868

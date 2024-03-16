@@ -32,7 +32,7 @@ categories: [Misc]
 
 或者在 .wslconfig 中添加：
 
-```txt
+plaintext
 [experimental]
 networkingMode=mirrored
 hostAddressLoopback=true
@@ -45,7 +45,7 @@ ignoredPorts = 8000,8080
 
 在 .wslconfig 中添加：
 
-```txt
+plaintext
 [experimental]
 networkingMode=mirrored
 hostAddressLoopback=true

@@ -14,7 +14,7 @@ categories: [Misc]
 
 在使用 GoLand 调试 WSL2 中的项目时，调试窗口会卡住，无法 Step Into，并且出现以下信息：
 
-```txt
+plaintext
 2024-01-29T15:18:59+08:00 warning layer=rpc Listening for remote connections (co
 nnections are not authenticated nor encrypted)
 ```
@@ -53,7 +53,7 @@ CGO_ENABLED=0 GOOS=linux go build -o dlv cmd/dlv/main.go
 
 最后用自己编译的可执行文件，替换掉 GoLand 的同名文件，文件路径在我的环境上如下：
 
-```txt
+plaintext
 C:\Program Files\JetBrains\GoLand 2023.3.2\plugins\go-plugin\lib\dlv\linux\dlv
 ```
 
