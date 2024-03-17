@@ -1,10 +1,10 @@
-import { defineConfig } from 'astro/config';
+import {defineConfig} from 'astro/config';
 
 import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://www.sulinehk.com',
-	integrations: [sitemap()],
-	compressHTML: false,
+  site: 'https://www.sulinehk.com',
+  integrations: [sitemap()],
+  compressHTML: false,
 });
