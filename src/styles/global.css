@@ -178,3 +178,72 @@ hr {
     /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
     white-space: nowrap;
 }
+
+footer {
+    padding: 2em 1em 6em 1em;
+    background: linear-gradient(var(--gray-gradient)) no-repeat;
+    color: rgb(var(--gray));
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: rgb(var(--gray));
+}
+
+.social-links a:hover {
+    color: rgb(var(--gray-dark));
+}
+
+header {
+    margin: 0;
+    padding: 0 1em;
+    background: white;
+    box-shadow: 0 2px 8px rgba(var(--black), 5%);
+}
+
+h2 {
+    margin: 0;
+    font-size: 1em;
+}
+
+h2 a,
+h2 a.active {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    padding: 1em 0.5em;
+    color: var(--black);
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+}
+
+nav a.active {
+    text-decoration: none;
+    border-bottom-color: var(--accent);
+}
+
+.social-links,
+.social-links a {
+    display: flex;
+}
+
+@media (max-width: 720px) {
+    .social-links {
+        display: none;
+    }
+}
