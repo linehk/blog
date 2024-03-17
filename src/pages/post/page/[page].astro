@@ -10,7 +10,7 @@ export async function getStaticPaths({paginate}) {
   const posts = (await getCollection('post')).sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
   );
-  return paginate(posts, {pageSize: 5});
+  return paginate(posts, {pageSize: 10});
 }
 
 const {page} = Astro.props;
@@ -38,8 +38,8 @@ const {page} = Astro.props;
       }
     </ul>
   </section>
-  {page.url.prev ? <a href={page.url.prev}>Previous</a> : null}
-  {page.url.next ? <a href={page.url.next}>Next</a> : null}
+  {page.url.prev ? <a href={page.url.prev}>上一页</a> : null}
+  {page.url.next ? <a href={page.url.next}>下一页</a> : null}
 </main>
 <Footer/>
 </body>
