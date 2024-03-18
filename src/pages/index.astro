@@ -1,5 +1,5 @@
 ---
-import {AUTHOR, TITLE, DESCRIPTION} from '@consts';
+import {TITLE, DESCRIPTION} from '@consts';
 import {getCollection} from 'astro:content';
 import FormattedDate from '@components/FormattedDate.astro';
 import Layout from "@components/Layout.astro";
@@ -9,7 +9,7 @@ const posts = (await getCollection('post')).sort(
 ).slice(0, 5);
 ---
 
-<Layout author={AUTHOR} title={TITLE} description={DESCRIPTION}>
+<Layout title={TITLE} description={DESCRIPTION}>
   <section>
     <ul>
       {posts.map((p) => (

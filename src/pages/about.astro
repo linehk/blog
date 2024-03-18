@@ -1,7 +1,8 @@
 ---
 import Layout from "@components/Layout.astro";
+import {TITLE, DESCRIPTION} from '@consts';
 ---
 
-<Layout title="关于">
+<Layout title={'关于 - ' + TITLE} description={DESCRIPTION}>
   <img src="/avatar.webp" alt="avatar"/>
 </Layout>

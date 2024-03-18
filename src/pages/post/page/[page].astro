@@ -2,6 +2,7 @@
 import {getCollection} from 'astro:content';
 import FormattedDate from '@components/FormattedDate.astro';
 import Layout from "@components/Layout.astro";
+import {DESCRIPTION, TITLE} from "../../../consts";
 
 export async function getStaticPaths({paginate}) {
   const posts = (await getCollection('post')).sort(
@@ -13,7 +14,7 @@ export async function getStaticPaths({paginate}) {
 const {page} = Astro.props;
 ---
 
-<Layout>
+<Layout title={'归档 - ' + TITLE} description={DESCRIPTION}>
   <section>
     <ul>
       {

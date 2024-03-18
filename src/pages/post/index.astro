@@ -1,5 +1,5 @@
 ---
-import {AUTHOR, DESCRIPTION} from '@consts';
+import {TITLE, DESCRIPTION} from '@consts';
 import {getCollection} from 'astro:content';
 import FormattedDate from '@components/FormattedDate.astro';
 import Layout from "@components/Layout.astro";
@@ -9,7 +9,7 @@ const posts = (await getCollection('post')).sort(
 ).slice(0, 10);
 ---
 
-<Layout title={AUTHOR} description={DESCRIPTION}>
+<Layout title={'归档 - ' + TITLE} description={DESCRIPTION}>
   <section>
     <ul>
       {

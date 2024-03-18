@@ -2,6 +2,7 @@
 import {getCollection} from "astro:content";
 import Layout from '@components/Layout.astro';
 import FormattedDate from "@components/FormattedDate.astro";
+import {DESCRIPTION, TITLE} from "../../consts";
 
 export async function getStaticPaths() {
   const posts = (await getCollection('post')).sort(
@@ -27,7 +28,7 @@ export async function getStaticPaths() {
 const {posts} = Astro.props;
 ---
 
-<Layout>
+<Layout title={'归档 - ' + TITLE} description={DESCRIPTION}>
   <section>
     <ul>
       {

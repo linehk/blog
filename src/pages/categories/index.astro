@@ -1,11 +1,12 @@
 ---
 import {getCollection} from "astro:content";
 import Layout from "@components/Layout.astro";
+import {DESCRIPTION, TITLE} from "../../consts";
 const posts = (await getCollection('post'));
 const categories = [...new Set(posts.map((p) => p.data.categories).flat())]
 ---
 
-<Layout>
+<Layout title={'分类 - ' + TITLE} description={DESCRIPTION}>
   <div class="categories">
     {categories.map((category) => {
       category = category.toLowerCase();
