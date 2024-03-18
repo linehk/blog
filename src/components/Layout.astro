@@ -1,12 +1,12 @@
 ---
 import '../styles/global.css';
-import {SITE_TITLE} from "@consts";
 import HeaderLink from "./HeaderLink.astro";
+import {AUTHOR} from '@consts';
 
 interface Props {
   title: string;
   description: string;
-  image?: string;
+  image: string;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -55,7 +55,7 @@ const {title, description, image = '/avatar.webp'} = Astro.props;
 <body>
 <header>
   <nav>
-    <h2><a href="/">{SITE_TITLE}</a></h2>
+    <h2><a href="/">{AUTHOR}</a></h2>
     <div class="internal-links">
       <HeaderLink href="/">Home</HeaderLink>
       <HeaderLink href="/post">Post</HeaderLink>

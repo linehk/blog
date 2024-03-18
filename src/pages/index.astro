@@ -1,5 +1,5 @@
 ---
-import {SITE_TITLE, SITE_DESCRIPTION} from '@consts';
+import {AUTHOR, TITLE, DESCRIPTION} from '@consts';
 import {getCollection} from 'astro:content';
 import FormattedDate from '@components/FormattedDate.astro';
 import Layout from "@components/Layout.astro";
@@ -9,19 +9,17 @@ const posts = (await getCollection('post')).sort(
 ).slice(0, 5);
 ---
 
-<Layout title={SITE_TITLE} description={SITE_DESCRIPTION}>
+<Layout author={AUTHOR} title={TITLE} description={DESCRIPTION}>
   <section>
     <ul>
-      {
-        posts.map((p) => (
-          <li>
-            <a href={`/post/${p.slug}/`}><h4 class="title">{p.data.title}</h4></a>
-            <p class="date">
-              <FormattedDate date={p.data.pubDate}/>
-            </p>
-          </li>
-        ))
-      }
+      {posts.map((p) => (
+        <li>
+          <a href={`/post/${p.slug}/`}><h4 class="title">{p.data.title}</h4></a>
+          <p class="date">
+            <FormattedDate date={p.data.pubDate}/>
+          </p>
+        </li>
+      ))}
     </ul>
   </section>
 </Layout>
