@@ -5,11 +5,11 @@ const post = defineCollection({
   // Type-check frontmatter using a schema
   schema: z.object({
     title: z.string(),
-    description: z.string(),
-    // Transform string to Date object
     pubDate: z.coerce.date(),
-    updatedDate: z.coerce.date().optional(),
-    heroImage: z.string().optional(),
+    lastmod: z.coerce.date().optional(),
+    keywords: z.array(z.string()),
+    description: z.string(),
+    categories: z.array(z.string()),
   }),
 });
 

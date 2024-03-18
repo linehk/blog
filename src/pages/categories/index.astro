@@ -1,0 +1,15 @@
+---
+import {getCollection} from "astro:content";
+import Layout from "../../components/Layout.astro";
+const posts = (await getCollection('post'));
+const categories = [...new Set(posts.map((p) => p.data.categories).flat())]
+---
+
+<Layout>
+  <div class="categories">
+    {categories.map((category) => {
+      category = category.toLowerCase();
+      return <p class="category"><a href={`/categories/${category}`}>{category}</a></p>;
+    })}
+  </div>
+</Layout>

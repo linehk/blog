@@ -1,0 +1,46 @@
+---
+import {getCollection} from "astro:content";
+import Layout from '../../components/Layout.astro';
+import FormattedDate from "../../components/FormattedDate.astro";
+
+export async function getStaticPaths() {
+  const posts = (await getCollection('post')).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+
+  const uniqueCategory = [
+    ...new Set(posts.map((p) => p.data.categories).flat()),
+  ];
+
+  return uniqueCategory.map((category) => {
+    const filteredPosts = posts.filter((p) =>
+      p.data.categories.includes(category)
+    );
+    category = category.toLowerCase();
+    return {
+      params: {category},
+      props: {posts: filteredPosts},
+    };
+  });
+}
+
+const {posts} = Astro.props;
+---
+
+<Layout>
+  <section>
+    <ul>
+      {
+        posts.map((p) => (
+          <li>
+            <a href={`/post/${p.slug}/`}><h4 class="title">{p.data.title}</h4></a>
+            <p class="date">
+              <FormattedDate date={p.data.pubDate}/>
+            </p>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</Layout>
+
