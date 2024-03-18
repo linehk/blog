@@ -1,6 +1,6 @@
 ---
 import {getCollection} from "astro:content";
-import Layout from "../../components/Layout.astro";
+import Layout from "@components/Layout.astro";
 const posts = (await getCollection('post'));
 const categories = [...new Set(posts.map((p) => p.data.categories).flat())]
 ---
