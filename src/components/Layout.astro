@@ -55,10 +55,10 @@ const {title, description} = Astro.props;
   <nav>
     <h2><a href="/">{AUTHOR}</a></h2>
     <div class="internal-links">
-      <a href="/">Home</a>
-      <a href="/post">Post</a>
-      <a href="/categories">Category</a>
-      <a href="/about">About</a>
+      <a class="link link-primary" href="/">Home</a>
+      <a class="link link-primary" href="/post">Post</a>
+      <a class="link link-primary" href="/categories">Category</a>
+      <a class="link link-primary" href="/about">About</a>
     </div>
     <div class="social-links">
       <a href="https://github.com/linehk" target="_blank">
@@ -76,7 +76,13 @@ const {title, description} = Astro.props;
   </nav>
 </header>
 <main>
-  <slot/>
+  <div
+    class="prose dark:prose-invert
+  prose-h1:font-bold prose-h1:text-xl
+  prose-a:text-blue-600 prose-p:text-justify prose-img:rounded-xl
+  prose-headings:underline">
+    <slot/>
+  </div>
 </main>
 <footer>
   &copy; {new Date().getFullYear()} sulinehk All rights reserved.
