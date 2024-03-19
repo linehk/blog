@@ -100,7 +100,7 @@ git checkout P5
 
 让我们从在 */accountservice* 文件夹中创建一个名为 *Dockerfile* 的文件来开始：
 
-dockerfile
+```dockerfile
 FROM iron/base
 
 EXPOSE 6767
