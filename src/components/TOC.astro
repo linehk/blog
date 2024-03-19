@@ -26,11 +26,9 @@ function buildHierarchy(headings: any) {
 }
 ---
 {toc && toc.length > 0 && (
-<nav class="article-toc">
-  <ul>
-    {toc.map((heading) => (
-      <TOCHeading heading={heading}/>
-    ))}
-  </ul>
-</nav>
+<ul>
+  {toc.map((heading) => (
+    <TOCHeading heading={heading}/>
+  ))}
+</ul>
   )}
