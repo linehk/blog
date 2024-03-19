@@ -1,5 +1,5 @@
 ---
-import {AUTHOR} from '@consts';
+import {SINCE} from "../consts";
 
 interface Props {
   title: string;
@@ -29,6 +29,8 @@ const {title, description} = Astro.props;
   <title>{title}</title>
   <meta name="title" content={title}/>
   <meta name="description" content={description}/>
+  <meta name="keywords"
+        content="sulinehk blog, sulinehk 博客, 计算机科学, 软件工程, 数据结构与算法分析, Go 语言实践"/>
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website"/>
@@ -58,7 +60,7 @@ const {title, description} = Astro.props;
 </main>
 <footer class="footer footer-center p-4 text-base-content">
   <aside>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved by sulinehk</p>
+    <p>Copyright © {SINCE + ' - ' + new Date().getFullYear()} - All right reserved by sulinehk</p>
   </aside>
 </footer>
 </body>

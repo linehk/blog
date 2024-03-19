@@ -6,13 +6,14 @@ import Layout from "@components/Layout.astro";
 
 const posts = (await getCollection('post')).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-).slice(0, 10);
+);
 ---
 
 <Layout title={'归档 - ' + TITLE} description={DESCRIPTION}>
   <ul>
+    <li>共有 {posts.length} 篇博客</li>
     {
-      posts.map((p) => (
+      posts.slice(0, 10).map((p) => (
         <li>
           <a href={`/post/${p.slug}/`} class="link link-primary"><h4>{p.data.title}</h4></a>
           <p>

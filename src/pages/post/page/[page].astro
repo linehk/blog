@@ -11,11 +11,16 @@ export async function getStaticPaths({paginate}) {
   return paginate(posts, {pageSize: 10});
 }
 
+const posts = (await getCollection('post')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
 const {page} = Astro.props;
 ---
 
 <Layout title={'归档 - ' + TITLE} description={DESCRIPTION}>
   <ul>
+    <li>共有 {posts.length} 篇博客</li>
     {
       page.data.map((p) => (
         <li>
