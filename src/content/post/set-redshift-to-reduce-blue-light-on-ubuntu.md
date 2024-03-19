@@ -42,7 +42,7 @@ sudo apt-get install gtk-redshift redshift python-appindicator
 
 粘贴下面内容。
 
-plaintext
+```plaintext
 ; Global settings for redshift
 [redshift]
 ; Set the day and night screen temperatures

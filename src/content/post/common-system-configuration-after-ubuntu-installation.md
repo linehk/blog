@@ -40,7 +40,7 @@ apt-get 用默认的源速度不是很快，可以更换成国内源来提升速
 
 编辑 `/etc/apt/sources.list` 备份后替换。
 
-plaintext
+```plaintext
 ## 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial main restricted universe multiverse
 ## deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial main restricted universe multiverse
