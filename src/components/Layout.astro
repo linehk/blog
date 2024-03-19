@@ -1,5 +1,4 @@
 ---
-import '../styles/global.css';
 import {AUTHOR} from '@consts';
 
 interface Props {
@@ -13,7 +12,7 @@ const {title, description} = Astro.props;
 ---
 
 <!doctype html>
-<html lang="zh-cn">
+<html lang="zh-cn" data-theme="light">
 <head>
   <!-- Global Metadata -->
   <meta charset="utf-8"/>
@@ -52,7 +51,7 @@ const {title, description} = Astro.props;
 </head>
 <body>
 <header>
-  <nav>
+  <nav class="flex items-center	justify-between">
     <h2><a href="/">{AUTHOR}</a></h2>
     <div class="internal-links">
       <a class="link link-primary" href="/">Home</a>
@@ -60,7 +59,7 @@ const {title, description} = Astro.props;
       <a class="link link-primary" href="/categories">Category</a>
       <a class="link link-primary" href="/about">About</a>
     </div>
-    <div class="social-links">
+    <div class="flex justify-center gap-4 mt-4">
       <a href="https://github.com/linehk" target="_blank">
         <span class="sr-only">GitHub</span>
         <svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32" astro-icon="social/github"
@@ -75,18 +74,15 @@ const {title, description} = Astro.props;
     </div>
   </nav>
 </header>
-<main>
+<main class="w-4/5 m-auto">
   <div
-    class="prose dark:prose-invert
-  prose-h1:font-bold prose-h1:text-xl
-  prose-a:text-blue-600 prose-p:text-justify prose-img:rounded-xl
-  prose-headings:underline">
+    class="prose">
     <slot/>
   </div>
 </main>
-<footer>
+<footer class="text-center">
   &copy; {new Date().getFullYear()} sulinehk All rights reserved.
-  <div class="social-links">
+  <div class="flex justify-center gap-4 mt-4">
     <a href="https://github.com/linehk" target="_blank">
       <span class="sr-only">GitHub</span>
       <svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32" astro-icon="social/github"
