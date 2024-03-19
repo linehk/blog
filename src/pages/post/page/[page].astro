@@ -20,8 +20,8 @@ const {page} = Astro.props;
       {
         page.data.map((p) => (
           <li>
-            <a href={`/post/${p.slug}/`}><h4 class="title">{p.data.title}</h4></a>
-            <p class="date">
+            <a href={`/post/${p.slug}/`} class="link link-primary"><h4>{p.data.title}</h4></a>
+            <p>
               <FormattedDate date={p.data.pubDate}/>
             </p>
           </li>
@@ -29,6 +29,10 @@ const {page} = Astro.props;
       }
     </ul>
   </section>
-  {page.url.prev ? <a href={page.url.prev}>上一页</a> : null}
-  {page.url.next ? <a href={page.url.next}>下一页</a> : null}
+  <div class="join grid grid-cols-2">
+    {page.url.prev ? <a href={page.url.prev} class="join-item btn btn-outline">上一页</a> :
+      <button class="join-item btn btn-outline">已无上页</button>}
+    {page.url.next ? <a href={page.url.next} class="join-item btn btn-outline">下一页</a> :
+      <button class="join-item btn btn-outline">已无下页</button>}
+  </div>
 </Layout>

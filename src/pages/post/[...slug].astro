@@ -18,11 +18,13 @@ const {Content, headings} = await post.render();
 ---
 
 <Layout title={post.data.title + ' - ' + TITLE} description={post.data.description}>
-  <h1>{post.data.title}</h1>
-  {headings && headings.length > 0 && (
-    <nav class="article-toc">
-      <TOC headings={headings}/>
-    </nav>
-  )}
-  <Content/>
+  <article>
+    <h1>{post.data.title}</h1>
+    {headings && headings.length > 0 && (
+      <nav>
+        <TOC headings={headings}/>
+      </nav>
+    )}
+    <Content/>
+  </article>
 </Layout>

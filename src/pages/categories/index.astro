@@ -7,10 +7,10 @@ const categories = [...new Set(posts.map((p) => p.data.categories).flat())]
 ---
 
 <Layout title={'分类 - ' + TITLE} description={DESCRIPTION}>
-  <div class="categories">
+  <div class="flex justify-center">
     {categories.map((category) => {
       category = category.toLowerCase();
-      return <p class="category"><a href={`/categories/${category}`}>{category}</a></p>;
+      return <a href={`/categories/${category}`} class="join-item btn btn-outline">{category}</a>;
     })}
   </div>
 </Layout>

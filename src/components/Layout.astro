@@ -54,12 +54,12 @@ const {title, description} = Astro.props;
   </ul>
 </header>
 <main class="prose max-w-none pt-8 pb-16 antialiased flex justify-between px-4 mx-auto max-w-screen-xl">
-  <article>
-    <slot/>
-  </article>
+  <slot/>
 </main>
-<footer class="flex justify-center">
-  &copy; {new Date().getFullYear()} sulinehk All rights reserved.
+<footer class="footer footer-center p-4 text-base-content">
+  <aside>
+    <p>Copyright © {new Date().getFullYear()} - All right reserved by sulinehk</p>
+  </aside>
 </footer>
 </body>
 </html>

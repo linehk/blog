@@ -15,8 +15,8 @@ const posts = (await getCollection('post')).sort(
       {
         posts.map((p) => (
           <li>
-            <a href={`/post/${p.slug}/`}><h4 class="title">{p.data.title}</h4></a>
-            <p class="date">
+            <a href={`/post/${p.slug}/`} class="link link-primary"><h4>{p.data.title}</h4></a>
+            <p>
               <FormattedDate date={p.data.pubDate}/>
             </p>
           </li>
@@ -24,5 +24,5 @@ const posts = (await getCollection('post')).sort(
       }
     </ul>
   </section>
-  <a href="/post/page/2">下一页</a>
+  <a href="/post/page/2" class="join-item btn btn-outline">下一页</a>
 </Layout>
