@@ -33,7 +33,7 @@ cd /pentest/web/owasp-zap
 
 2、
 
-```text
+```plaintext
 Applications|BackTrack|Vulnerability Assessment|Web Application Assessment|Web Vulnerability Scanners|owasp-zap
 ```
 

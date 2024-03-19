@@ -36,7 +36,7 @@ git submodule add https://github.com/linehk/hugo-theme-even.git themes/even
 
 如果在网站根目录下出现 *.gitmodules* 文件，且内容跟我的类似，则表示成功：
 
-```INI
+```ini
 [submodule "themes/even"]
 	path = themes/even
 	url = https://github.com/linehk/hugo-theme-even.git
@@ -75,7 +75,7 @@ git submodule add https://github.com/linehk/hugo-theme-even.git themes/even
 3. 在弹出来的输入框输出主域名即可，如：*www.sulinehk.com*
 4. 在域名商处添加如下的 DNS 记录，等待 DNS 刷新，看到主域名处出现 *NETLIFY DNS* 的墨绿色标志即代表成功
 
-```DNS
+```plaintext
 dns1.p01.nsone.net
 dns2.p01.nsone.net
 dns3.p01.nsone.net
@@ -88,7 +88,7 @@ dns4.p01.nsone.net
 
 我的代码如下：
 
-```_redirects
+```plaintext
 # These rules will change if you change your site’s custom domains or HTTPS settings
 
 # Redirect default Netlify subdomain to primary domain

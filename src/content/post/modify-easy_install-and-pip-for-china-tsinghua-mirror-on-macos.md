@@ -26,7 +26,7 @@ categories: [macOS]
 
 替换成如下文本：
 
-```text
+```plaintext
 [easy_install]
 index_url = https://pypi.tuna.tsinghua.edu.cn/simple
 ```
@@ -43,7 +43,7 @@ index_url = https://pypi.tuna.tsinghua.edu.cn/simple
 
 替换成如下文本：
 
-```text
+```plaintext
 [global]
 index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 ```

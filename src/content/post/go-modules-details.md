@@ -34,7 +34,7 @@ Go 1.13 默认使用 Go Modules 模式，所以以上内容在 Go 1.13 发布并
 
 以下就是 go.mod 文件的一个最全面的示例：
 
-```go.mod
+```plaintext
 module my/thing
 go 1.12
 require other/thing v1.0.2 // 这是注释
@@ -87,7 +87,7 @@ Go 命令行工具会自动处理 go.mod 中指定的模块版本。当源代码
 
 示例如下：
 
-```go.sum
+```plaintext
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/gin-gonic/gin v1.4.0 h1:3tMoCCfM7ppqsR0ptz/wi1impNpT7/9wQtMZ8lr1mCQ=

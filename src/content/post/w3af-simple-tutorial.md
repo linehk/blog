@@ -37,7 +37,7 @@ root@bt:/pentest/web/w3af# ./w3af_console
 
 ## 0×04 漏洞扫描配置
 
-```text
+```plaintext
 w3af>>> plugins
 //进入插件模块
 w3af/plugins>>> list discovery 
@@ -60,11 +60,11 @@ w3af/config:target>>> back
 
 ## 0×05 漏洞扫描
 
-```text
+```plaintext
 w3af>>> start
 ```
 
-```text
+```plaintext
 ---
 New URL found by phpinfo plugin: http://192.168.244.132/
 New URL found by phpinfo plugin: http://192.168.244.132/checklogin.php
@@ -97,7 +97,7 @@ Scan finished in 19 seconds.
 
 ## 0×06 漏洞利用配置
 
-```text
+```plaintext
 w3af>>> exploit 
 //进入漏洞利用模块
 w3af/exploit>>> list exploit
@@ -106,7 +106,7 @@ w3af/exploit>>> exploit sqlmap
 //使用sqlmap进行SQL注入漏洞的测试
 ```
 
-```text
+```plaintext
 ---
 Trying to exploit using vulnerability with id: [1010, 1011]. Please wait...
 Vulnerability successfully exploited. This is a list of available shells and proxies:

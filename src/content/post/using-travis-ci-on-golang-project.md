@@ -48,7 +48,7 @@ func TestHello(t *testing.T) {
 
 go.mod：
 
-```text
+```plaintext
 module github.com/linehk/hello
 
 go 1.14

@@ -37,13 +37,13 @@ ln -s ../mods-available/rest .
 
 然后，在 */etc/freeradius/users* 文件中配置身份验证类型：
 
-```text
+```plaintext
 DEFAULT Auth-Type := rest
 ```
 
 而站点配置应按以下方式调用该模块：
 
-```text
+```plaintext
 authenticate {
      Auth-Type rest {
         rest
@@ -55,7 +55,7 @@ authenticate {
 
 最后，通过 */etc/freeradius/mods-enabled/rest* 文件配置模块本身：
 
-```text
+```plaintext
 connect_uri = "https://127.0.0.1/"
 
 authenticate

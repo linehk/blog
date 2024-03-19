@@ -344,7 +344,7 @@ categories: [Note]
 * 变长编码（1-4字节）：无法按下标直接访问第 i 个字符
 * 二进制表示：
 
-  ```text
+  ```plaintext
   0xxxxxxx                            0~127(2^7) ASCII
   110xxxxx 10xxxxxx                   128~2047(2^11)
   1110xxxx 10xxxxxx 10xxxxxx          2048~65535(2^16)
