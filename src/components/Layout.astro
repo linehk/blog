@@ -11,7 +11,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const {title, description} = Astro.props;
 ---
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-cn" data-theme="light">
 <head>
   <!-- Global Metadata -->
@@ -47,7 +47,7 @@ const {title, description} = Astro.props;
   <meta property="twitter:image" content={new URL('/avatar.webp', Astro.url)}/>
 </head>
 <body>
-<header class="flex justify-center">
+<header class="flex flex-row justify-center">
   <ul class="menu menu-horizontal">
     <li><a class="link link-primary" href="/">Home</a></li>
     <li><a class="link link-primary" href="/post">Post</a></li>
@@ -55,7 +55,7 @@ const {title, description} = Astro.props;
     <li><a class="link link-primary" href="/about">About</a></li>
   </ul>
 </header>
-<main class="prose max-w-none pt-8 pb-16 antialiased flex justify-between px-4 mx-auto max-w-screen-xl">
+<main class="prose max-w-none flex flex-row justify-center pt-8">
   <slot/>
 </main>
 <footer class="footer footer-center p-4 text-base-content">

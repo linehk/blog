@@ -19,23 +19,25 @@ const {page} = Astro.props;
 ---
 
 <Layout title={'归档 - ' + TITLE} description={DESCRIPTION}>
-  <ul>
-    <li>共有 {posts.length} 篇博客</li>
-    {
-      page.data.map((p) => (
-        <li>
-          <a href={`/post/${p.slug}/`} class="link link-primary"><h4>{p.data.title}</h4></a>
-          <p>
-            <FormattedDate date={p.data.pubDate}/>
-          </p>
-        </li>
-      ))
-    }
-  </ul>
-  <div class="join grid grid-cols-2">
-    {page.url.prev ? <a href={page.url.prev} class="join-item btn btn-outline">上一页</a> :
-      <button class="join-item btn btn-outline">已无上页</button>}
-    {page.url.next ? <a href={page.url.next} class="join-item btn btn-outline">下一页</a> :
-      <button class="join-item btn btn-outline">已无下页</button>}
+  <div class="w-2/5">
+    <ul>
+      <li>共有 {posts.length} 篇博客</li>
+      {
+        page.data.map((p) => (
+          <li>
+            <a href={`/post/${p.slug}/`} class="link link-primary"><h4>{p.data.title}</h4></a>
+            <p>
+              <FormattedDate date={p.data.pubDate}/>
+            </p>
+          </li>
+        ))
+      }
+    </ul>
+    <div class="join grid grid-cols-2">
+      {page.url.prev ? <a href={page.url.prev} class="join-item btn btn-outline">上一页</a> :
+        <button class="join-item btn btn-outline">已无上页</button>}
+      {page.url.next ? <a href={page.url.next} class="join-item btn btn-outline">下一页</a> :
+        <button class="join-item btn btn-outline">已无下页</button>}
+    </div>
   </div>
 </Layout>
