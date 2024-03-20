@@ -16,10 +16,12 @@ const posts = (await getCollection('post')).sort(
       {
         posts.slice(0, 10).map((p) => (
           <li>
-            <a href={`/post/${p.slug}/`} class="link link-primary"><h4>{p.data.title}</h4></a>
-            <p>
+            <label>
               <FormattedDate date={p.data.pubDate}/>
-            </p>
+            </label>
+            <a href={`/post/${p.slug}/`}
+               class="link link-primary">
+              <h4 class="inline">{p.data.title}</h4></a>
           </li>
         ))
       }
