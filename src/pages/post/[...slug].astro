@@ -19,7 +19,7 @@ const {Content, headings} = await Astro.props.render();
 ---
 
 <Layout title={markdownData.title + ' - ' + TITLE} description={markdownData.description}>
-  <article class="w-1/2">
+  <article class="w-1/2 md:w-auto w-full">
     <h1>{markdownData.title}</h1>
     <p>
       <FormattedDate date={markdownData.pubDate}/>
