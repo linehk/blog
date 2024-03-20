@@ -3,6 +3,7 @@ import {getCollection} from 'astro:content';
 import Layout from '@components/Layout.astro';
 import {TITLE} from "../../consts";
 import TOC from "../../components/TOC.astro";
+import FormattedDate from "../../components/FormattedDate.astro";
 
 export async function getStaticPaths() {
   const posts = await getCollection('post');
@@ -12,14 +13,17 @@ export async function getStaticPaths() {
   }));
 }
 
-const post = Astro.props;
+const markdownData = Astro.props.data;
 
-const {Content, headings} = await post.render();
+const {Content, headings} = await Astro.props.render();
 ---
 
-<Layout title={post.data.title + ' - ' + TITLE} description={post.data.description}>
+<Layout title={markdownData.title + ' - ' + TITLE} description={markdownData.description}>
   <article class="w-1/2">
-    <h1>{post.data.title}</h1>
+    <h1>{markdownData.title}</h1>
+    <p>
+      <FormattedDate date={markdownData.pubDate}/>
+    </p>
     {headings && headings.length > 0 && (
       <nav>
         <TOC headings={headings}/>
