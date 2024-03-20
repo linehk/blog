@@ -14,9 +14,9 @@ const posts = (await getCollection('post')).sort(
     {posts.map((p) => (
       <li>
         <a href={`/post/${p.slug}/`} class="link link-primary"><h2>{p.data.title}</h2></a>
-        <h4>
+        <p>
           <FormattedDate date={p.data.pubDate}/>
-        </h4>
+        </p>
       </li>
     ))}
   </ul>
