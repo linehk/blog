@@ -19,7 +19,7 @@ const {Content, headings, remarkPluginFrontmatter} = await Astro.props.render();
 ---
 
 <Layout title={markdownData.title + ' - ' + TITLE} description={markdownData.description}>
-  <article class="w-1/2 md:w-auto w-full">
+  <article class="lg:w-1/2 md:w-auto">
     <h1>{markdownData.title}</h1>
     <p>
       <FormattedDate date={markdownData.pubDate}/>
