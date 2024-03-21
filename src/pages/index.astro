@@ -10,14 +10,16 @@ const posts = (await getCollection('post')).sort(
 ---
 
 <Layout title={TITLE} description={DESCRIPTION}>
-  <ul>
-    {posts.map((p) => (
-      <li>
-        <a href={`/post/${p.slug}/`} class="link link-primary"><h2>{p.data.title}</h2></a>
-        <p>
-          <FormattedDate date={p.data.pubDate}/>
-        </p>
-      </li>
-    ))}
-  </ul>
+  <div class="w-5/6 sm:w-auto">
+    <ul>
+      {posts.map((p) => (
+        <li>
+          <a href={`/post/${p.slug}/`} class="link link-primary"><h2>{p.data.title}</h2></a>
+          <p>
+            <FormattedDate date={p.data.pubDate}/>
+          </p>
+        </li>
+      ))}
+    </ul>
+  </div>
 </Layout>

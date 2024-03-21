@@ -6,8 +6,9 @@ const posts = (await getCollection('post'));
 const categories = [...new Set(posts.map((p) => p.data.categories).flat())]
 ---
 
+
 <Layout title={'分类 - ' + TITLE} description={DESCRIPTION}>
-  <div class="w-2/5 md:w-auto w-full">
+  <div>
     {categories.map((category) => {
       category = category.toLowerCase();
       return <a href={`/categories/${category}`} class="join-item btn btn-outline">{category}</a>;
