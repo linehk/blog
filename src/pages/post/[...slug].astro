@@ -4,6 +4,8 @@ import Layout from '@components/Layout.astro';
 import {TITLE} from "../../consts";
 import TOC from "../../components/TOC.astro";
 import FormattedDate from "../../components/FormattedDate.astro";
+import getReadingTime from 'reading-time';
+import {toString} from 'mdast-util-to-string';
 
 export async function getStaticPaths() {
   const posts = await getCollection('post');
@@ -13,9 +15,11 @@ export async function getStaticPaths() {
   }));
 }
 
+
+
 const markdownData = Astro.props.data;
 
-const {Content, headings} = await Astro.props.render();
+const {Content, headings, remarkPluginFrontmatter} = await Astro.props.render();
 ---
 
 <Layout title={markdownData.title + ' - ' + TITLE} description={markdownData.description}>
@@ -23,6 +27,8 @@ const {Content, headings} = await Astro.props.render();
     <h1>{markdownData.title}</h1>
     <p>
       <FormattedDate date={markdownData.pubDate}/>
+      &nbsp;&nbsp;
+      {remarkPluginFrontmatter.minutesRead}
     </p>
     {headings && headings.length > 0 && (
       <nav>
