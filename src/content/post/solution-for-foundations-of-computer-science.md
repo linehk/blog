@@ -8,8 +8,6 @@ categories: [Solution]
 
 ---
 
-<!--more-->
-
 ## 第 1 章 绪论
 
 复习题：

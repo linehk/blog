@@ -12,8 +12,6 @@ Travis CI 是一种免费的持续集成服务，而 **持续集成（CI, Contin
 
 本文会详细介绍如何在 Go 语言项目中使用 Travis CI。
 
-<!--more-->
-
 ![Travis CI logo](/images/using-travis-ci-on-golang-project/travis-ci-logo.webp "Travis CI logo")
 
 ## 准备工作

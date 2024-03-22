@@ -23,8 +23,6 @@ categories: [ Golang ]
 
 下面就来介绍如何在 Go 语言中进行软件测试中较为重要的一环：单元测试。
 
-<!--more-->
-
 ![Go 语言单元测试实践](/images/golang-unit-testing/unit-testing-logo.webp "Go 语言单元测试实践")
 
 ## 单元测试简介

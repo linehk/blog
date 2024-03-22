@@ -18,8 +18,6 @@ macOS 作为苹果公司专用的操作系统，驱动厂商也会开发定制�
 
 值得庆幸的是，这样的问题可以通过禁用开源驱动，安装 Nvidia 专有驱动并且安装双显卡切换器来缓解。虽然不能完美解决，但也聊胜于无。
 
-<!--more-->
-
 ![Nvidia Logo](/images/install-nvidia-proprietary-driver-on-ubuntu/nvidia-logo.webp "Nvidia Logo")
 
 ## 禁用开源驱动 nouveau

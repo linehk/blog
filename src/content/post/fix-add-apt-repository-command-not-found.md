@@ -10,8 +10,6 @@ categories: [Ubuntu]
 
 本文将向你展示如何修复在 Ubuntu、Debian 和其它基于 Debian 的 Linux 发行版上出现的 add-apt-repository command not found 错误。
 
-<!--more-->
-
 ![Debian Logo](/images/fix-add-apt-repository-command-not-found/debian-logo.webp "Debian Logo")
 
 我们在 Ubuntu 和 Debian 上安装软件包时经常会使用到 PPA（Personal Package Archive）。

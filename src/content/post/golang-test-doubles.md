@@ -8,8 +8,6 @@ categories: [Golang]
 
 ---
 
-<!--more-->
-
 ## 什么是测试替代
 
 测试替代（Test Doubles）一种用于在测试中替代真实实现的技术。

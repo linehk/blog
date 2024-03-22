@@ -10,8 +10,6 @@ categories: [Golang]
 
 本文介绍了一个简单的 Golang 分页查询通用接口。
 
-<!--more-->
-
 ![Golang Logo](/images/a-simple-general-interface-for-paging-query-in-golang/golang-logo.webp "Golang Logo")
 
 ```go

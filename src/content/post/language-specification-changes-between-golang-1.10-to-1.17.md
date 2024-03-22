@@ -10,8 +10,6 @@ categories: [Golang]
 
 因为 Golang 1.10 到 1.17 期间发生了相当多的语言规范改动，所以写了这篇博客来记录它。
 
-<!--more-->
-
 ![Golang Logo](/images/language-specification-changes-between-golang-1.10-to-1.17/golang-logo.webp "Golang Logo")
 
 ## Golang 1.10

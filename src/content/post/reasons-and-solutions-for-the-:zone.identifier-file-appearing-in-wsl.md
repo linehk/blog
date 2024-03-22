@@ -10,8 +10,6 @@ categories: [Misc]
 
 因为使用 Windows 和 WSL 作为开发环境，经常出现 :Zone.Identifier 文件，所以写了这篇博客来记录其原因和解决方法。
 
-<!--more-->
-
 ![WSL Logo](/images/reasons-and-solutions-for-the-zone.identifier-file-appearing-in-wsl/wsl-logo.webp "WSL Logo")
 
 ## 原因

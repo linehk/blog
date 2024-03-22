@@ -10,8 +10,6 @@ categories: [Misc]
 
 本文介绍了如何不通过浏览器获取公网 IP。
 
-<!--more-->
-
 ![DNS Logo](/images/get-public-ip-without-browser/dns-logo.webp "DNS Logo")
 
 有的时候我们的计算机处于受限状态，不能使用浏览器或者 HTTP 协议。

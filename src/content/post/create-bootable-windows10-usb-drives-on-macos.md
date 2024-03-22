@@ -10,8 +10,6 @@ categories: [macOS]
 
 本文介绍了如何在 macOS 上制作 Windows 10 的 USB 启动盘。
 
-<!--more-->
-
 ![Windows 10 Logo](/images/create-bootable-windows10-usb-drives-on-macos/windows10-logo.webp "Windows 10 Logo")
 
 ## 找到 U 盘路径和 Windows 10 镜像名

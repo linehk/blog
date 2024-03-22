@@ -12,8 +12,6 @@ categories: [Misc]
 
 本文将介绍 Authentication 和 Authorization 之间的区别，以及它们又包含了什么意思。
 
-<!--more-->
-
 ![Authentication and Authorization Logo](/images/difference-between-authentication-and-authorization/authentication-and-authorization-logo.webp "Authentication and Authorization Logo")
 
 ## Authentication

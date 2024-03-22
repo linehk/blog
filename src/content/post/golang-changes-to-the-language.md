@@ -16,8 +16,6 @@ categories: [Golang]
 
 下面我会从 Go1.1 到 Go1.11 以来挑 4 个值得讨论的改动来跟大家分享一下。
 
-<!--more-->
-
 ![Golang Logo](/images/golang-changes-to-the-language/go-logo.webp "Golang 吉祥物")
 
 ## 三索引切片

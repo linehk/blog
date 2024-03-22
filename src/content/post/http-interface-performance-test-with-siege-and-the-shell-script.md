@@ -12,8 +12,6 @@ categories: [Misc]
 
 因为运维人员担心安全方面的影响，所以不能直接运行可执行文件，只能使用以前的 Siege 和 Shell 脚本。
 
-<!--more-->
-
 ![Siege Logo](/images/http-interface-performance-test-with-siege-and-the-shell-script/siege-logo.webp "Siege Logo")
 
 ## 安装 Siege

@@ -12,8 +12,6 @@ categories: [Ubuntu]
 
 下面列出两个在网上搜索可用的解决方法。
 
-<!--more-->
-
 ![Sogou Pinyin Logo](/images/solve-sogoupinyin-error-on-ubuntu/sogoupinyin-logo.webp "Sogou Pinyin Logo")
 
 ## 方法一：修改 fctix 有关配置

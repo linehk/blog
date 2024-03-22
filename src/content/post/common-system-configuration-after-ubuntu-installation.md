@@ -10,8 +10,6 @@ categories: [Ubuntu]
 
 本文介绍了安装 Ubuntu 系统后一些常用的配置。
 
-<!--more-->
-
 ![Ubuntu Logo](/images/common-system-configuration-after-ubuntu-installation/ubuntu-logo.webp "Ubuntu Logo")
 
 ## 权限相关

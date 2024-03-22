@@ -10,8 +10,6 @@ categories: [Misc]
 
 因为最近把开发环境换成了 Windows 和 WSL 的组合，而 Windows 下面的代理设置太繁琐，所以写了这篇博客来记录。
 
-<!--more-->
-
 ![Windows Logo](/images/windows-common-proxy-settings/windows-logo.webp "Windows Logo")
 
 ## 系统代理

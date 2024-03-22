@@ -8,8 +8,6 @@ categories: [Golang]
 
 ---
 
-<!--more-->
-
 ## 默认修复循环变量意外共享问题
 
 在 Go 1.21 需要手动通过 GOEXPERIMENT=loopvar 启用的功能，修复循环变量意外共享，现在是默认的。

@@ -14,8 +14,6 @@ categories: [Golang]
 
 在本文中，通过一个简单的 Go 语言项目，您将学习如何在 Go 语言项目中使用 Docker。
 
-<!--more-->
-
 ![Golang and Docker logo](/images/using-docker-on-golang-project/golang-and-docker-logo.webp "Golang and Docker logo")
 
 ## 创建一个简单的 Go 语言项目

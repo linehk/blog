@@ -10,8 +10,6 @@ categories: [Ubuntu]
 
 Atom 是 GitHub 专门为程序员推出的一个跨平台文本编辑器。
 
-<!--more-->
-
 ![Atom Logo](/images/install-atom-on-ubuntu/atom-logo.webp "Atom Logo")
 
 ## Ubuntu 上的安装和卸载

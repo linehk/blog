@@ -26,8 +26,6 @@ WHOIS 的隐私保护也要额外费用。
 
 2. 要转移的域名如果在 60天内有过修改信息、续费等操作的话是无法转移的。
 
-<!--more-->
-
 ![No GoDaddy Logo](/images/transfer-godaddy-domain-to-namesilo/no-godaddy-logo.webp "No GoDaddy Logo")
 
 ## 操作的前置说明

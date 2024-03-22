@@ -8,8 +8,6 @@ categories: [Misc]
 
 ---
 
-<!--more-->
-
 使用 GPG 密钥时 git commit 有时候会卡住。
 
 可以通过一下命令来重启 gpg-agent 和 ssh-agent：

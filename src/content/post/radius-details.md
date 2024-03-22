@@ -16,8 +16,6 @@ RADIUS 是一种 C/S 架构的协议，由 [RFC 2865](https://tools.ietf.org/htm
 
 实际上任何运行了 RADIUS 客户端软件（如 [FreeRADIUS](https://freeradius.org/ "FreeRADIUS")）的计算机都可以被看作是 RADIUS 的客户端。
 
-<!--more-->
-
 ![RADIUS Logo](/images/radius-details/radius-logo.webp "RADIUS Logo")
 
 ## 工作过程

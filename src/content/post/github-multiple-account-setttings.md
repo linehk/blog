@@ -12,8 +12,6 @@ categories: [GitHub]
 
 本文会介绍在拥有多个 GitHub 账号的时候，如何通过配置 SSH 文件来让各个账户正常工作且不发生冲突。
 
-<!--more-->
-
 ![SSH Logo](/images/github-multiple-account-setttings/ssh-logo.webp "SSH Logo")
 
 ## 生成 SSH

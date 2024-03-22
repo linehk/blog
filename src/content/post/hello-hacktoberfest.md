@@ -10,8 +10,6 @@ categories: [Misc]
 
 什么是 [Hacktoberfest](https://hacktoberfest.digitalocean.com/ "Hacktoberfest")？这个词由 `Hack`、`October`、`Festival` 组成，是一项提倡开源精神的活动。今年，也就是 2018年由 DigtialOcean、Github 和 Twilio 三家公司合作举办。活动内容为：只要你在 **10月1日至 10月31日**之间为任何 GitHub 仓库发起了 5 个PR（Pull Request）就可以获得一件免费的纪念 T-Shirt 和一些贴纸。
 
-<!--more-->
-
 ![Hacktoberfest Logo](/images/hello-hacktoberfest/hacktoberfest-logo.webp "Hacktoberfest Logo")
 
 ## 在 Hacktoberfest 报名

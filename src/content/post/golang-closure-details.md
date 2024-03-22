@@ -12,8 +12,6 @@ categories: [Golang]
 
 下面就来通过几个例子来说明 Go 语言中的闭包以及由闭包引用产生的问题。
 
-<!--more-->
-
 ![Golang Logo](/images/golang-closure-details/go-logo.webp "Go 语言闭包详解")
 
 ## 函数变量（函数值）

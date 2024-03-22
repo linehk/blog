@@ -10,8 +10,6 @@ categories: [Golang]
 
 因为公司的项目经常出现这行代码：`var _ Interface = (*Type)(nil)`，所以写了这篇博客来解释它。
 
-<!--more-->
-
 ![Interface Logo](/images/verify-golang-interface-compliance/interface-logo.webp "Interface Logo")
 
 ## 详细说明

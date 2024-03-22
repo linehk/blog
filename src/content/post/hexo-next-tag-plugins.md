@@ -12,8 +12,6 @@ categories: [Website]
 
 比如，Markdown 文档的图片引用不支持改变图片的显示大小，Hexo 中就可以用 `img` 标签来改变。
 
-<!--more-->
-
 ![Hexo Logo](/images/hexo-next-tag-plugins/hexo-logo.webp "Hexo Logo")
 
 ## Hexo 的标签插件

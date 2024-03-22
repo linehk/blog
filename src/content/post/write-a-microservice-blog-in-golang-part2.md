@@ -18,8 +18,6 @@ categories: [Golang]
 
 为了专注于 Go 的基本概念，我们稍后再将其部署到 Docker Swarm。
 
-<!--more-->
-
 ![Building Microservices Logo](/images/write-a-microservice-blog-in-golang-part2/building-microservices-logo.webp "Building Microservices Logo")
 
 ## 序言

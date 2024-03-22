@@ -18,8 +18,6 @@ categories: [Golang]
 
 由于此部分不会更改任何核心服务，所以不用进行基准测试。
 
-<!--more-->
-
 ![Building Microservices Logo](/images/write-a-microservice-blog-in-golang-part4/building-microservices-logo.webp "Building Microservices Logo")
 
 ## 微服务测试简介

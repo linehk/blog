@@ -10,8 +10,6 @@ categories: [Golang]
 
 本文介绍了一个简单的 GORM 通用事务接口。
 
-
-
 ![GORM Logo](/images/a-simple-gorm-general-transaction-interface/gorm-logo.webp "GORM Logo")
 
 ```go

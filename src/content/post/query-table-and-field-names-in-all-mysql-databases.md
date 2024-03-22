@@ -10,8 +10,6 @@ categories: [Database]
 
 因为需要熟悉公司的新业务，而公司的数据库架构是根据表的字段来区分的多租户架构，会有很多业务库混在一起，导致了需要查某个字段的时候会比较麻烦。
 
-<!--more-->
-
 ![MySQL Logo](/images/query-table-and-field-names-in-all-mysql-databases/mysql-logo.webp "MySQL Logo")
 
 MySQL 的 information_schema 库中有以下字段：

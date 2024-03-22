@@ -22,8 +22,6 @@ categories: [Golang]
 
 注意：在本博客系列中提及 Docker Swarm 时，我指的是以 [swarm 模式](https://docs.docker.com/engine/swarm/ "swarm 模式")运行 Docker 1.12+。作为独立概念的 [Docker Swarm](https://docs.docker.com/swarm/ "Docker Swarm") 在 Docker 1.12 版本后不再使用。
 
-<!--more-->
-
 ![Building Microservices Logo](/images/write-a-microservice-blog-in-golang-part1/building-microservices-logo.webp "Building Microservices Logo")
 
 ## 全局概述

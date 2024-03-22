@@ -10,8 +10,6 @@ categories: [Misc]
 
 古人云：取乎其上，得乎其中；取乎其中，得乎其下；取乎其下，则无所得矣。
 
-<!--more-->
-
 ![LeetCode Logo](/images/how-to-crack-google-coding-interview/leetcode-logo.webp "LeetCode Logo")
 
 ## 面试流程

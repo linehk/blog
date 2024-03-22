@@ -12,8 +12,6 @@ Hugo 原生支持 Google Analytics，一些主题也支持 Baidu Analytics 和 B
 
 但对于 Google AdSense 就没有很好的支持，即便如此，我们也可以通过嵌入自定义的 HTML 代码来使用它。
 
-<!--more-->
-
 ![Logo](/images/add-google-adsense-to-hugo-website/logo.webp "Logo")
 
 ## 添加验证代码

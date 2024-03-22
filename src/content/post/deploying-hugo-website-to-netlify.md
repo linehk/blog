@@ -14,8 +14,6 @@ categories: [Website]
 
 本文就来介绍如何部署一个 Hugo 网站到 Netlify 和一些额外设置。
 
-<!--more-->
-
 ![Netlify Logo](/images/deploying-hugo-website-to-netlify/netlify-logo.webp "Netlify Logo")
 
 ## 主题子模块化

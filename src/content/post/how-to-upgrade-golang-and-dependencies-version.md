@@ -8,8 +8,6 @@ categories: [Golang]
 
 ---
 
-<!--more-->
-
 ## 升级 Golang 版本
 
 在项目下使用命令：`go mod edit -go=1.21.3`，也可以直接修改 go.mod 文件的 go 字段。

@@ -10,8 +10,6 @@ categories: [Misc]
 
 因为最近把开发环境换成了 Windows 和 WSL 的组合，而 WSL 下面的代理设置太繁琐，所以写了这篇博客来记录。
 
-<!--more-->
-
 ![WSL Logo](/images/wsl-development-environment-proxy-settings/wsl-logo.webp "WSL Logo")
 
 ## 步骤

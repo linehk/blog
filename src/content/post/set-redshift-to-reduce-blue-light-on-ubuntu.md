@@ -12,8 +12,6 @@ Redshift 这个软件可以根据经纬度信息自动判断当前所在位置�
 
 在 Ubuntu 上，Ubuntu 17.10 版本已经有了类似的功能，但 Ubuntu 16.04 LTS 版及旧版本还未集成。
 
-<!--more-->
-
 ![Redshift Logo](/images/set-redshift-to-reduce-blue-light-on-ubuntu/redshift-logo.webp "Redshift Logo")
 
 ## 安装

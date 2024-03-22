@@ -20,8 +20,6 @@ categories: [Golang]
 * 将 accountservice 部署为 Swarm 服务
 * 运行基准测试并收集指标
 
-<!--more-->
-
 ![Building Microservices Logo](/images/write-a-microservice-blog-in-golang-part5/building-microservices-logo.webp "Building Microservices Logo")
 
 ## 什么是容器编排？

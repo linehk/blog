@@ -12,8 +12,6 @@ categories: [Website]
 
 我们可以通过在 GitHub 设置两个分支，将 Hexo 生成的静态文件和 Hexo 源文件区分开来，这样就可以实现多平台工作或者备份数据。
 
-<!--more-->
-
 ![Hexo and GitHub Page Logo](/images/hexo-backup-reset/hexo-and-github-logo.webp "Hexo and GitHub Page Logo")
 
 ## 分支设置

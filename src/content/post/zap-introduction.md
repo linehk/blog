@@ -20,8 +20,6 @@ ZAP中国：[http://www.owasp.org.cn/](http://www.owasp.org.cn/ "http://www.owas
 
 BackTrack5R3中集成了ZAP，下面我来演示了一下ZAP的简单实用。
 
-<!--more-->
-
 打开方式：
 
 1、

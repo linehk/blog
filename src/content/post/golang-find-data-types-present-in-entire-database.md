@@ -10,8 +10,6 @@ categories: [Database]
 
 因为公司架构的变更，需要根据业务来迁移数据库中的数据，而迁移接口需要根据数据库用到的数据类型来读取和写入，所以需要用 Golang 查找整个数据库中存在的数据类型。
 
-<!--more-->
-
 ![Database Logo](/images/golang-find-data-types-present-in-entire-database/database-logo.webp "Database Logo")
 
 整体流程为：

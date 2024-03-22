@@ -14,8 +14,6 @@ Go Modules 是为了提升使用其他开发者代码，即添加 **依赖项（
 
 所以学习跟 Go Modules 有关的知识是很有必要的。
 
-<!--more-->
-
 ![Golang Logo](/images/go-modules-details/golang-logo.webp "Golang Logo")
 
 ## 模式

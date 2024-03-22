@@ -13,8 +13,6 @@ categories: [ Misc ]
 目前最受欢迎的软件文档格式非 Markdown 莫属，本文主要叙述的就是关于它的说明，通过本文你可以学到诸多语法细节和编写地道的
 Markdown 文档的方法。
 
-<!--more-->
-
 ![Markdown Logo](/images/markdown-explanation/markdown-logo.webp "Markdown Logo")
 
 ## Markdown 介绍

@@ -8,8 +8,6 @@ categories: [Golang]
 
 ---
 
-<!--more-->
-
 ## 官方布局
 
 来源：[Golang 官方文档](https://go.dev/doc/modules/layout "Golang 官方文档")

@@ -16,8 +16,6 @@ categories: [Golang]
 * 嵌入一​​个简单的键值存储，这样我们就可以在其中存储 Account 结构体。
 * 将结构体序列化为 JSON，并通过我们的 /accounts/{accountId} HTTP 服务提供服务。
 
-<!--more-->
-
 ![Building Microservices Logo](/images/write-a-microservice-blog-in-golang-part3/building-microservices-logo.webp "Building Microservices Logo")
 
 ## 代码

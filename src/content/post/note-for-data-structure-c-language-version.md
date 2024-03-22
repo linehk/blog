@@ -8,8 +8,6 @@ categories: [Note]
 
 ---
 
-<!--more-->
-
 ## 第一章 概论
 
 * 数据：

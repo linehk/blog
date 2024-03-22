@@ -8,8 +8,6 @@ categories: [Golang]
 
 ---
 
-<!--more-->
-
 ## 内置函数
 
 新增内置函数 min、max 来返回参数中的最小值、最大值。

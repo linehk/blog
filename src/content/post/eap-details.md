@@ -10,8 +10,6 @@ categories: [RADIUS]
 
 **EAP，即扩展认证协议（Extensible Authentication Protocol）**，由 [RFC 3748](https://tools.ietf.org/html/rfc3748 "RFC 3748") 定义，是一个在网络中经常使用的身份验证框架，并在 WiFi（IEEE 802.11）下的 WPA 和 WPA2 标准中作为规范认证机制。
 
-<!--more-->
-
 ![WiFi Logo](/images/eap-details/wifi-logo.webp "WiFi Logo")
 
 ## 出现原因

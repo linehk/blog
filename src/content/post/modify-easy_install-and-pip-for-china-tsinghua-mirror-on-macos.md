@@ -10,8 +10,6 @@ categories: [macOS]
 
 本文介绍了如何通过修改 macOS 上的 easy_install 和 pip 的配置文件，设置为国内清华镜像源，从而加快速度。
 
-<!--more-->
-
 ![macOS Logo](/images/modify-easy_install-and-pip-for-china-tsinghua-mirror-on-macos/macos-logo.webp "macOS Logo")
 
 ## easy_install

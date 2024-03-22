@@ -8,8 +8,6 @@ categories: [Note]
 
 ---
 
-<!--more-->
-
 ## 第一章 至亲密友
 
 莫尔斯电码（Morse Code）：有两种闪烁，短闪和长闪。或者点（dot）和划（dash）。

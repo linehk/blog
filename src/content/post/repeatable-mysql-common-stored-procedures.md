@@ -12,8 +12,6 @@ categories: [Database]
 
 这样就可以把常用的一些 SQL 写成存储过程，并使其可重复执行，会比较方便。
 
-<!--more-->
-
 ![MySQL Logo](/images/repeatable-mysql-common-stored-procedures/mysql-logo.webp "MySQL Logo")
 
 ## 创建列

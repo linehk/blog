@@ -12,8 +12,6 @@ categories: [Misc]
 
 w3af是一个Web应用程序攻击和检查框架.该项目已超过130个插件,其中包括检查网站爬虫,SQL注入(SQL Injection),跨站(XSS),本地文件包含(LFI),远程文件包含(RFI)等.该项目的目标是要建立一个框架,以寻找和开发Web应用安全漏洞,所以很容易使用和扩展.
 
-<!--more-->
-
 ## 0×00 概述
 
 在BackTrack5R3下使用w3af测试Kioptrix Level 4的SQL注入漏洞.

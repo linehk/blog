@@ -10,8 +10,6 @@ categories: [Database]
 
 因为在公司业务中遇到了这个问题，所以写了这篇博客来记录出现问题的原因和修复方法。
 
-<!--more-->
-
 ![MySQL Logo](/images/the-slow-query-problem-caused-by-the-combined-use-of-gorm-first()-and-mysql5.6/mysql-logo.webp "MySQL Logo")
 
 ## 原因

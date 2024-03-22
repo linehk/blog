@@ -10,8 +10,6 @@ categories: [Golang]
 
 因为对表达式断言和赋值断言的理解不够清晰，所以写了这篇博客来加深理解。
 
-<!--more-->
-
 ![Golang Logo](/images/categories-and-examples-of-type-assertion-in-golang/golang-logo.webp "Golang Logo")
 
 为了更好地理解类型断言的例子，后面的内容都遵循以下惯例：

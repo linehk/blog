@@ -8,8 +8,6 @@ categories: [Misc]
 
 ---
 
-<!--more-->
-
 ## 问题
 
 在 2023 年 9 月的 Windows 11 更新中，WSL2 支持了新的网络模式：镜像（mirrored）。它能够通过 localhost 地址从 WSL2 内部连接到 Windows 的 127.0.0.1 地址。

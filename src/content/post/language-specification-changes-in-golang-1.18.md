@@ -8,8 +8,6 @@ categories: [Golang]
 
 ---
 
-<!--more-->
-
 ## 泛型
 
 详见：[Golang 泛型初级教程](https://sulinehk.com/post/golang-genercis-introductory-tutorial/ "Golang 泛型初级教程")和 [Golang 泛型中级教程](https://sulinehk.com/post/golang-generics-intermediate-tutorial/ "Golang 泛型中级教程")。

@@ -15,8 +15,6 @@ categories: [GitHub]
 
 所以，如果你想要给开源项目贡献代码或者翻译文档，学会如何使用 GitHub 来正确地贡献代码是必不可少的。
 
-<!--more-->
-
 ![GitHub Logo](/images/how-to-use-github-flow-to-contribute-code-to-open-source-projects/github-logo.webp "GitHub Logo")
 
 ## 准备工作

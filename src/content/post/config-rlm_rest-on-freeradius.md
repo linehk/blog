@@ -12,8 +12,6 @@ categories: [RADIUS]
 
 但是，模块当前未实现 RADIUS 的所有功能，例如质询响应身份验证和属性映射，所以不支持 MS-CHAPv2 等协议。
 
-<!--more-->
-
 ![FreeRADIUS Logo](/images/config-rlm_rest-on-freeradius/freeradius-logo.webp "FreeRADIUS Logo")
 
 ## 安装
