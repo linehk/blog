@@ -4,7 +4,7 @@ pubDate: 2024-05-18T14:36:00+08:00
 lastmod: 2024-05-18T14:36:00+08:00
 keywords: []
 description: ""
-categories: [Golang]
+categories: [sqlc]
 
 ---
 
