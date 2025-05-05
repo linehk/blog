@@ -26,8 +26,12 @@ categories: [Misc]
 
 ## 解决方法
 
-* 移动文件时，不要通过资源管理器，而是通过 VS Code，这样不会生成该文件；
-* 通过这条命令删除该文件：`find . -name "*:Zone.Identifier" -type f -delete`。
+* 通过修改 Windows 组策略禁用附加元数据文件，步骤如下：
+    1. 打开组策略编辑器：快捷键 `Win + R` 进入运行，输入 `gpedit.msc`；
+    2. 导航：​`​用户配置 -> 管理模板 -> Windows 组件 -> 附件管理器`​​；
+    3. 设置：双击`文件附件中不保留区域信息` ，设置为`已启用`，并重启系统。
+* 移动文件时，不要通过资源管理器，而是通过 VS Code，这样不会生成该文件。
+* 通过这条命令删除这些文件：`find . -name "*:Zone.Identifier" -type f -delete`。
 
 ## 参考链接
 
