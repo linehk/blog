@@ -8,6 +8,8 @@ categories: [Golang]
 
 ---
 
+## 问题
+
 使用 json.Unmarshal 解码数字类型到 any 类型时，会默认变为 float64，如：
 
 ```go
@@ -36,6 +38,8 @@ func TestNumber(t *testing.T) {
 	fmt.Printf("Int type = %T\n", jsonDecodeStruct["Int"]) // Int type = float64
 }
 ```
+
+## 解决方案
 
 使用注释的 json.NewDecoder 和 UseNumber 替换 json.Unmarshal 来解决。
 
