@@ -8,6 +8,8 @@ categories: [Golang]
 
 ---
 
+在上一个项目 [listdb](https://www.upwork.com/jobs/~018db314725bf3f8f2 "listdb") 中，需要对自定义的表结构在多台机器请求间保持同步，所以需要并发监控值变化，以下是常见的三种方法。
+
 ## 轮询
 
 使用 sync/atomic 包对值进行存储和读取，当轮询发现值变化时返回。
