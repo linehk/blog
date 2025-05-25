@@ -8,13 +8,13 @@ categories: [Golang]
 
 ---
 
-在上一个项目 [listdb](https://www.upwork.com/jobs/~018db314725bf3f8f2 "listdb") 中，客户希望实现零停机，即程序更新时，保持正在执行的请求不中断，且拒绝新的请求，保持服务可用性，让第三方用户零感知。
+在上一个项目 listdb 中，客户希望实现零停机，即程序更新时，保持正在执行的请求不中断，且拒绝新的请求，保持服务可用性，让第三方用户零感知。
 
 这种需求在云原生环境下一般被称为[滚动部署（Rolling deployments）](https://docs.aws.amazon.com/whitepapers/latest/overview-deployment-options/rolling-deployments.html "滚动部署（Rolling deployments）")，需要 k8s 等组件参与。
 
-客户希望保持项目的简单和减少依赖，所以不能使用云原生组件和第三方包，所以需要手动实现优雅停机（Graceful Shutdown）、热重启（Hot Restart）、systemd 集成和持续部署（如：GitHub Actions）集成。
+客户希望保持项目的简单和减少依赖，所以不能使用云原生组件和第三方包，所以需要手动实现优雅停机（Graceful Shutdown）、热重启（Hot Restart）、systemd 集成和持续部署集成。
 
-## 优雅停机（Graceful Shutdown）
+## 优雅停机
 
 Go 1.8 后能简单的使用 `http.Server` 的 `Shutdown` 来实现，示例如下：
 
@@ -201,7 +201,7 @@ func TestGracefulShutdownTimeout(t *testing.T) {
 2025/05/20 13:37:06 Shutdown timeout
 ```
 
-## 热重启（Hot Restart）
+## 热重启
 
 该实现结合了优雅停机和热重启。
 
@@ -539,7 +539,7 @@ func clearCLOEXEC(fd uintptr) error {
 ### 改进
 
 * 端口复用，添加 SO_REUSEPORT 支持
-* 在热重启后，通过命令 `lsof -p $(pidof restart)` 可以看出，占用的文件描述符多了一个，不知道能否关闭
+* 关闭多余文件描述符：在热重启后，通过命令 `lsof -p $(pidof restart)` 可以看出，占用的文件描述符多了一个
 
 ### 第三方包评估
 
@@ -572,7 +572,9 @@ PIDFile=/path/to/pid-file
 
 因为 systemd 需要 pid-file 实现自动重启等功能，所以还需要实现写入 pid-file 的逻辑。
 
-## 持续部署（如：GitHub Actions）
+## 持续部署
+
+这里以 GitHub Actions 为例：
 
 ```text
 on: [ push ]

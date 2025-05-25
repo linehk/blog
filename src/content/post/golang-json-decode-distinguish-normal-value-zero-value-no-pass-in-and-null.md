@@ -10,7 +10,7 @@ categories: [Golang]
 
 ## 问题
 
-在上一个项目 [listdb](https://www.upwork.com/jobs/~018db314725bf3f8f2 "listdb") 中，客户希望在传入的 JSON 中区分正常值、零值、未传入和 null。
+在上一个项目 listdb 中，客户希望在传入的 JSON 中区分正常值、零值、未传入和 null。
 
 但 Golang 使用默认的 JSON 解码时，无法区分，示例如下：
 

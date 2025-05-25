@@ -10,7 +10,7 @@ categories: [Golang]
 
 ## 问题
 
-在上一个项目 [listdb](https://www.upwork.com/jobs/~018db314725bf3f8f2 "listdb") 中，客户希望通过 any 类型来收集多种类型的值，并且需要兼容超出 math.MaxUint64 的数字。
+在上一个项目 listdb 中，客户希望通过 any 类型来收集多种类型的值，并且需要兼容超出 math.MaxUint64 的数字。
 
 但使用 json.Unmarshal 解码数字类型到 any 类型时，会默认变为 float64，如：
 

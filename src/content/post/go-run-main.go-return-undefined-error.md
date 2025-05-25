@@ -10,7 +10,7 @@ categories: [Golang]
 
 ## 问题
 
-在上一个项目 [listdb](https://www.upwork.com/jobs/~018db314725bf3f8f2 "listdb") 中，客户希望能够让第三方开发人员方便理解，所以没有使用流行的 Golang 项目结构，而是直接将所有文件平铺到 main 包。
+在上一个项目 listdb 中，客户希望能够让第三方开发人员方便理解，所以没有使用流行的 Golang 项目结构，而是直接将所有文件平铺到 main 包。
 
 但当 main.go 和它所依赖的 go 文件在 main 包时，只运行 `go run main.go` 会返回未定义错误：
 
